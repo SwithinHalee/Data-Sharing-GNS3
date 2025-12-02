@@ -46,9 +46,9 @@ File-file berikut **telah disediakan di dalam repository ini** (folder `firmware
 
 | Filename | Tipe Perangkat | Kegunaan di GNS3 | Link Download |
 | :--- | :--- | :--- | :--- |
-| `c3745-advipservicesk9-mz.124-25d.bin` | **Router c3745** | Router Cisco (Opsional/Cadangan) | [📥 Download File](./firmware/c3745-advipservicesk9-mz.124-25d.bin) |
-| `c7200-adventerprisek9-mz.124-24.T5.bin` | **Router c7200** | Router Utama (High-Performance) | [📥 Download File](./firmware/c7200-adventerprisek9-mz.124-24.T5.bin) |
-| `i86bi-linux-l2-ipbasek9-15.1g.bin` | **Switch L2 (IOU)** | Ethernet Switch Antar-Zona | [📥 Download File](./firmware/i86bi-linux-l2-ipbasek9-15.1g.bin) |
+| `c3745-advipservicesk9-mz.124-25d.bin` | **Router c3745** | Router Cisco (Opsional/Cadangan) | [📥 Download File](https://drive.google.com/file/d/1O6AnGK3xX9f8ity1pocyPBdTfAavtSiJ/view?usp=drive_link) |
+| `c7200-adventerprisek9-mz.124-24.T5.bin` | **Router c7200** | Router Utama (High-Performance) | [📥 Download File](https://drive.google.com/file/d/1fY50E_TfKkxZmei0AY_cksDGuJ6wXhLq/view?usp=drive_link) |
+| `i86bi-linux-l2-ipbasek9-15.1g.bin` | **Switch L2 (IOU)** | Ethernet Switch Antar-Zona | [📥 Download File](https://drive.google.com/file/d/1sRTdCfTsfuI0adbJerZmIppKB5Uq4Fas/view?usp=drive_link) |
 | `cisco-asav-9.x.x.zip` | **Cisco ASAv** | Next-Gen Firewall & VPN (Enterprise) | [📥 Download File](https://drive.google.com/file/d/1-1K3ukjRsVn4lYcVdbWsmTXwSui4B5fx/view?usp=drive_link) |
 
 > **Panduan Import ke GNS3:**
@@ -62,8 +62,7 @@ File-file berikut **telah disediakan di dalam repository ini** (folder `firmware
 
 Sistem ini membagi jaringan menjadi 5 zona keamanan:
 
-![Network Topology](assets/Topologi.png)
-*(Pastikan Anda mengupload screenshot topologi GNS3 Anda ke folder assets/Topologi.png)*
+<img width="1149" height="645" alt="Topologi Gns3" src="https://github.com/user-attachments/assets/2bf9f3b4-b0ac-4ebd-ba82-ad19d3a3c2f4" />
 
 1.  **Internet (WAN):** Koneksi ke dunia luar via NAT.
 2.  **Server Zone (`10.0`):** Tempat aplikasi disimpan.

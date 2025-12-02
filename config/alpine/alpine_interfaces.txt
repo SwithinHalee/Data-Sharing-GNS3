@@ -1,0 +1,30 @@
+auto lo
+iface lo inet loopback
+
+# WAN (Internet)
+auto eth0
+iface eth0 inet dhcp
+
+# Server Zone
+auto eth1
+iface eth1 inet static
+    address 192.168.10.1
+    netmask 255.255.255.0
+
+# Local Zone
+auto eth2
+iface eth2 inet static
+    address 192.168.20.1
+    netmask 255.255.255.0
+
+# Guest Zone
+auto eth3
+iface eth3 inet static
+    address 192.168.30.1
+    netmask 255.255.255.0
+
+# External Zone
+auto eth4
+iface eth4 inet static
+    address 172.16.1.1
+    netmask 255.255.255.0
